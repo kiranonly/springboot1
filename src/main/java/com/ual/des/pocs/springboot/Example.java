@@ -5,8 +5,7 @@ import org.springframework.boot.autoconfigure.*;
 import org.springframework.web.bind.annotation.*;
 @RestController
 public class Example {
-   
-     @GetMapping("test")
+    @RequestMapping("hello")
     String greet() {
         return "hello!!!!";
     }
